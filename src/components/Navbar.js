@@ -1,13 +1,15 @@
 import React from 'react'
-import styles from './navbar.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import {FaAdobe} from 'react-icons/fa'
+import {Link } from 'gatsby'
+
+
 
 
 const Navbar = () => {
     return (
-        <div className={styles.navbar}>
-            <h1>Im the navbar</h1>
-        </div>
+        <React.Fragment>
+                       <h1>HEllo from navbar</h1> 
+        </React.Fragment>
     )
 }
 
