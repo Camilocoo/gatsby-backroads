@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 
 
-const StyledTitle = ({title,subtitle}) => {
+const StyledTitle = ({title,subtitle }) => {
     return (
         <TitleWrapper>
             <h4>
