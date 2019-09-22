@@ -1,10 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
+import styles from '../css/error.module.css'
+import {Link} from 'gatsby'
+import Banner from '../components/Banner'
 
 export default function error() {
   return (
     <Layout>
-      <h1>Hello from error page</h1>
+      <header className={styles.error}> 
+        <Banner title="oops it's a dead end">
+          <Link to='/' className='btn-white'>back to home page</Link>
+        </Banner>
+      </header>
     </Layout>
   )
 }
