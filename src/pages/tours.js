@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import Header from '../examples/Header'
+import ReagularHeader from '../examples/RegularHeader'
 
 
 export default class tours extends Component {
@@ -8,6 +9,7 @@ export default class tours extends Component {
     return(
       <Layout>
           <Header/>
+          <ReagularHeader/>
       </Layout>
     )
    
