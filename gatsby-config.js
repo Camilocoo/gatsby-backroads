@@ -7,6 +7,7 @@ module.exports = {
   }
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,

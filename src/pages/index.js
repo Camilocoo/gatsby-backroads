@@ -1,12 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import StyledHero from "../components/StyledHero"
+
 import Banner from "../components/Banner"
 import Services from '../components/Home/Services'
 import About from '../components/Home/About'
 import {graphql, useStaticQuery} from 'gatsby'
-import props from "gatsby"
+import StyledHero from "../components/StyledHero"
+
  
 
 export const getImage = graphql`

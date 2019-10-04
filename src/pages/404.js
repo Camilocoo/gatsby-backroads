@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import styles from '../css/error.module.css'
 import {Link} from 'gatsby'
 import Banner from '../components/Banner'
+import {graphql, useStaticQuery} from 'gatsby'
+import StyledHero from "../components/StyledHero"
 
 export default function error() {
   return (
