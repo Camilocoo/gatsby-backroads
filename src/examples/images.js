@@ -20,7 +20,7 @@ const getImages = graphql`
              fluid:file(relativePath:{eq:"blogBcg.jpeg"}){
                childImageSharp{
                  fluid{
-                   ...GatsbyImageSharpFluid_withWebp
+                   ...GatsbyImageSharpFluid_tracedSVG
 
                  }
                }
@@ -70,7 +70,8 @@ const Images = () => {
            </article>
            <article>
                <h3>fluid image svg</h3>
-               <Img fixed={fluid.childImageSharp.fluid}/>
+            
+               <Img fluid={fluid.childImageSharp.fluid}/>
            </article>
 
         </Wrapper>
