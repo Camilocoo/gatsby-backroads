@@ -7,6 +7,7 @@ import Services from '../components/Home/Services'
 import About from '../components/Home/About'
 import {graphql, useStaticQuery} from 'gatsby'
 import StyledHero from "../components/StyledHero"
+import FeaturedTours from "../components/Home/FeaturedTours"
 
  
 
@@ -45,6 +46,7 @@ export default ({data:{aboutImage:{childImageSharp:{fluid}}}}) => (
       </StyledHero>
       <About/>
       <Services/>
+      <FeaturedTours/>
 
     </Layout>
   </React.Fragment>
