@@ -3,9 +3,9 @@ import React from 'react'
 
 const Tour = () => {
     return (
-        <div>
+        <article>
            this is a single tour  
-        </div>
+        </article>
     )
 }
 
